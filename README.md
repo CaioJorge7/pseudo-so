@@ -87,26 +87,5 @@ demais linhas: <PID>, <código: 0 = criar | 1 = deletar>, <nome>, <blocos (só p
 
 ---
 
-## 6. Enviando para o GitHub
-
-### Opção A — Pelo site (sem instalar nada)
-1. Entre em <https://github.com> → botão **New** (novo repositório).
-2. Nome: `pseudo-so-iso` → **Create repository**.
-3. Clique em **uploading an existing file**, arraste **todo o conteúdo desta pasta** (não a pasta em si) e clique em **Commit changes**.
-
-### Opção B — Pelo terminal (Git instalado)
-```
-cd caminho\para\pseudo-so
-git init
-git add .
-git commit -m "Pseudo-SO multiprogramado - ISO Grupo 02"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/pseudo-so-iso.git
-git push -u origin main
-```
-Se o Git não estiver instalado: `winget install --id Git.Git -e` no Terminal.
-
----
-
-## 7. Uso de IA
+## 6. Uso de IA
 O código foi gerado com apoio do Claude (Anthropic) e revisado pela equipe.
